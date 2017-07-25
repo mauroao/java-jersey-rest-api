@@ -1,10 +1,10 @@
 # Java Jersey RESTful API
 
-## Resumo
+## Introdução
 
 Este projeto utiliza a biblioteca [Jersey](https://jersey.github.io) , para implementar uma API RESTful.
 
-## Ferramentas utilizadas
+## Pré requisitos
 
 * [Java](https://www.java.com/en/)
 * [Eclipse IDE](http://www.eclipse.org)
