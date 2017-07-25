@@ -7,8 +7,8 @@ Este projeto utiliza a biblioteca [Jersey](https://jersey.github.io) , para impl
 ## Pré requisitos
 
 * [Java](https://www.java.com/en/)
-* [Eclipse IDE](http://www.eclipse.org)
-* [Tomcat Apache 7](tomcat.apache.org)
+* [Eclipse IDE](https://eclipse.org/ide/)
+* [Apache Tomcat®](https://tomcat.apache.org/)
 
 ## Observações
 
