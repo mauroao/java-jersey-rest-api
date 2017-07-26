@@ -5,24 +5,24 @@ import java.util.Date;
 public class Contato {
 	
 	  private int serial;
-	  public int getSerial() { return this.serial; }
-	  public void setSerial(int serial) { this.serial = serial; }
+	  public int getserial() { return this.serial; }
+	  public void setserial(int serial) { this.serial = serial; }
 
 	  private String nome;
-	  public String getNome() { return this.nome; }
-	  public void setNome(String nome) { this.nome = nome; }
+	  public String getnome() { return this.nome; }
+	  public void setnome(String nome) { this.nome = nome; }
 
 	  private String telefone;
-	  public String getTelefone() { return this.telefone; }
-	  public void setTelefone(String telefone) { this.telefone = telefone; }
+	  public String gettelefone() { return this.telefone; }
+	  public void settelefone(String telefone) { this.telefone = telefone; }
 
 	  private Date data;
 	  public Date getdata() { return this.data; }
 	  public void setdata(Date data) { this.data = data; }
 
 	  private Operadora operadora;
-	  public Operadora getOperadora() { return this.operadora; }
-	  public void setOperadora(Operadora operadora) { this.operadora = operadora; }
+	  public Operadora getoperadora() { return this.operadora; }
+	  public void setoperadora(Operadora operadora) { this.operadora = operadora; }
 	  
 	  public Contato() {}
 	  

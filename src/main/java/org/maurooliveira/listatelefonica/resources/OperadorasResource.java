@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
@@ -15,7 +16,15 @@ public class OperadorasResource {
 
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Operadora> Get() {
+	public List<Operadora> GetOperadoras() {
 		return OperadorasService.getOperadoras();
 	}
+
+	@GET
+	@Path("/{codigo}")
+	@Produces(MediaType.APPLICATION_JSON)	
+	public Operadora GetOperadora(@PathParam("codigo") int codigo) {
+		return OperadorasService.getOperadora(codigo);
+	}
+	
 }

@@ -9,5 +9,11 @@ public class OperadorasService {
 	public static List<Operadora> getOperadoras() {
 		return DataBase.getOperadoras();
 	}
-
+	
+	public static Operadora getOperadora(int codigo) {
+		return DataBase.getOperadoras()
+				.stream()
+				.filter(item -> item.getcodigo() == codigo)
+				.findAny().orElse(null);
+	}
 }
