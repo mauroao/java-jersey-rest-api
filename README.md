@@ -12,4 +12,4 @@ Este projeto utiliza a biblioteca [Jersey](https://jersey.github.io) , para impl
 
 ## Observações
 
-Esta API pode ser consumida pelo projeto [https://github.com/mauroao/angular.js](https://github.com/mauroao/angular.js)
+Esta API pode ser consumida pelo projeto [mauroao/angular.js](https://github.com/mauroao/angular.js)
